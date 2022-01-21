@@ -82,8 +82,8 @@
   }
   
   #ground {
-    width: 900px;
-    height: 900px;
+    /* width: 900px;
+    height: 900px; */
     position: absolute;
     top: 100%;
     left: 50%;
@@ -168,3 +168,11 @@
     font-size: 4vw;
   }
   
+  #auto {
+    position: fixed;
+    /* margin right: 5%: ; */   
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+ 
